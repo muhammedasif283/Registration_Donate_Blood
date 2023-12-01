@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="icon"  href="logo.png" type="image/x-icon">
+  <title>Donate Blood</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/css/bootstrap.css" type="text/css">
+  <script src="script.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head> 
+<body>
+
+
+<section class="main-section">
+  <div class="container">
+    <h1 class="main-heading">
+        DONATE YOUR BLOOD
+    </h1>
+
+    <div class="grid-row">
+      <div class="left-col">
+        <p>
+      </div>
+
+      <div class="right-col">
+        <h2 class="dark-heading">
+          <span> </span>
+          <span></span>
+        </h2>
+        <h2 class="small-top-space"> </h2>
+      </div>
+    </div>
+     <div class="form border border-3 border-danger col-sm">
+           <div id="app">
+              <form id="registrationForm">
+            <label for="name">NAME</label><br>
+            <input type="text" id="name" required placeholder="Enter Your Name"><br><br>
+
+            <label for="address">ADDRESS</label><br>
+            <input type="text" id="address" required placeholder="Enter Your Address"><br><br>
+
+            <label for="bloodGroup">BLOOD GROUP</label><br>
+            <input type="text" id="bloodGroup" required placeholder="Enter Your Blood Group"><br><br>
+
+            <label for="phoneNumber">PHONE NUMBER</label><br>
+            <input type="tel" id="phoneNumber" pattern="[0-9]{10}" required placeholder="Enter Your Phone Number"><br><br>
+
+            <label for="date">DATE</label><br>
+            <input type="date" id="date" required><br><br>
+
+            <button style="    margin-left: 115px;" type="button" onclick="submitForm()">SUBMIT</button>
+        </form>
+
+        <ul id="userList"></ul>
+    </div>
+     </div>
+
+  </div>
+
+
+
+<script type="text/javascript">
+  jQuery(".mobile-menu-btn").click(function(){
+    jQuery(".mobile-menu").addClass("show-menu")
+  }); 
+  jQuery(".close-menu").click(function(){
+    jQuery(".mobile-menu").removeClass("show-menu")
+  }); 
+</script>
+</body>
+</html>        

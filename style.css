@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Fjalla One', sans-serif;
+}
+body {
+     background-color: #E3E3E3;
+     position: relative ;
+     background: url(bg.jpg) no-repeat ;
+     background-size: cover;
+     height: 100vh;
+}
+
+label {
+    font-weight: bold;
+
+}
+input{
+     border-color: red;
+     width: 300px; 
+}
+
+button {
+    background-color: red;
+    color: #E3E3E3;
+    padding: 10px;
+    border: none;
+    border-radius: 5px !important;
+    cursor: pointer;
+
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.main-heading{
+     color: red;
+     font-size: 70px;
+     font-weight: 800;
+     line-height: 150px;
+}
+.form{
+     width: 450px;
+     height: 500px;
+     border-radius: 30px;
+     margin-left: 75px;
+
+}
+.main-heading > span {
+    display: block;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Fjalla One', sans-serif;
+}
+body {
+  height: 100vh;
+  background-color: #E3E3E3;
+  position: relative;
+  background: url(bg.jpg) no-repeat;
+  background-size: cover;
+}
+.container {
+  width: 95%;
+  max-width: 1360px;
+  margin: auto;
+}
+#app{
+     padding-top: 30px;
+     margin-left: 60px;
+}
+
+header.main-header {
+    padding: 40px 0;
+}
+
+.main-heading > span {
+    display: block;
+}
+.main-heading {
+    color: red;
+    font-size: 90px;
+    font-weight: 800;
+    line-height: 140px;
+}
+
+.desktop-hide {
+  display: none;
+}
+  body {
+      background-color: #E3E3E3 !important;
+     background: url(bg.jpg) ;background-size: cover;position: relative;
+  }
+/******************** @Media Css ****************/
+@media only screen and (max-width: 960px) and (min-width: 200px) {
+
+  header.main-header {
+      padding: 10px 0;
+  }
+  .main-heading {
+      font-size: 40px;
+      line-height: 50px;
+  }
+  .main-section .grid-row {
+      display: block;
+  }
+  nav.navbar.mobile-menu ul.nav-listing {
+      width: 100%;
+  }
+
+  body .desktop-hide {
+    display: block;
+  }
+  .main-section .grid-row,h2.dark-heading {
+      margin-top: 20px;
+  }
+}
+@media only screen and (max-width: 1320px) and (min-width: 961px) { 
+  ul.nav-listing > li > a {
+    font-size: 15px;
+  }
+  .main-heading {
+      font-size: 60px;
+      line-height: 60px;
+  }
+  .main-section .grid-row {
+    margin-top: 20px;
+  }
+
+}
